@@ -1,0 +1,22 @@
+.idea
+*.class
+/target
+# Default ignored files
+# Datasource local storage ignored files
+dataSources
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+httpRequests
+*.iml
+nullExtentRepoResults.html
+test-output
+reports
+Selenium.logs
+.Selenium.logs
+*.png
+cucumberResults/
+bin
+.Selenium.logs.1
+.Selenium.logs.2
+.Selenium.logs.3
+.Selenium.logs.*
