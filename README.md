@@ -1,35 +1,19 @@
 # Inroduction
 
-This repo contains all the Selenium (automation) test cases for Angular WebApp. We are using test framework.
+This Web Automation Framework for Qualitest
 
 # Development
+Framework is based on POM model and fully dynamic as per the given scenario.It can be more dyamic as I can make and also enhance able with mobile apps and mobile browsers too
 
 ## Drivers
-Drivers are already checked in `drivers` directory but in case you need to download the driver you can download it from [here](https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/).
+I am using WebDriver manager So you don't need to download any drivers. You just need to have chrome or firefox in your system. It will pick automatically.
 
-## Mac
-You need to follow these [insturctions](https://www.browserstack.com/guide/run-selenium-tests-on-safari-using-safaridriver) to run the automation test case on Mac machine.
-### Issues
-On mac you can run into this error: "chromedriver canot be opened beause the developer cannot be verfied"
-
-![Mac issue](./docs/chomedriver-cannot-be-opened.png)
-
-run the following command and then
-```shell
-xattr -d com.apple.quarantine drivers/mac/chromedriver
-```
 ## Test Execution
-Once your environment is setup run the following command on console.
-```shell
-mvn test
-```
-## Style Check
-It is important to keep the code style consistent hence we have enabled [pmd](https://pmd.github.io/latest/pmd_userdocs_tools_maven.html), & Check style. It is also important to run the style check before you push code changes and ensure that
-it is not complaining about any code changes. You need to run the following
-command to run the style check.
+Open the Project in Eclipse or intellij and Run as Testng
 
-```shell
-mvn pmd:check
+## Report
+Cucumber reports will be generated inside the framework and you can see json and html reports easily.
 
-mvn checkstyle:check
-```
+## Extensions Installation
+Install from Eclipse Market place - Testng and Cucucmber
+if you are using IntelliJ - It will download automatically
